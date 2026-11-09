@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Database / runtime data (demo data is regenerated on startup)
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+*.db.bak*
+*.bak_*
+*.bak-*
+
+# Env / secrets
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
